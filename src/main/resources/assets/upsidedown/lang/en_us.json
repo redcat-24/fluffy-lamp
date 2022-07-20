@@ -1,3 +1,4 @@
 {
-  "item.upsidedown.poison_dart"
+  "item.upsidedown.dart": "Dart",
+  "item.upsidedown.poison_dart": "Poison Dart"
 }
