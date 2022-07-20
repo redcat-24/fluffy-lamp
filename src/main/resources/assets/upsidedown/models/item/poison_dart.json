@@ -1,0 +1,6 @@
+{
+  "parent": "upsidedown:item/generated",
+  "textures": {
+    "layer0": "upsidedown:item/poison_dart"
+  }
+}
