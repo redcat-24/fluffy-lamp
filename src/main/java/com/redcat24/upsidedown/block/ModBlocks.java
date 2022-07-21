@@ -17,6 +17,9 @@ public class ModBlocks {
     public static final Block ALUMINUM_BLOCK = registerBlock("aluminum_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(5.0f).requiresTool()),
             ItemGroup.BUILDING_BLOCKS);
+    public static final Block ALUMINUM_ORE = registerBlock("aluminum_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f, 4.0f).requiresTool()),
+            ItemGroup.MATERIALS);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
