@@ -1,13 +1,10 @@
 package com.redcat24.upsidedown;
 
 import com.redcat24.upsidedown.block.ModBlocks;
+import com.redcat24.upsidedown.item.ModItemTags;
 import com.redcat24.upsidedown.item.ModItems;
+import com.redcat24.upsidedown.status_effects.StatusEffectInitializer;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,5 +17,7 @@ public class RedcatsUpsideDown implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModItemTags.defineTagObjects();
+		StatusEffectInitializer.initializeModEffects();
 	}
 }

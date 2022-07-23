@@ -3,6 +3,10 @@
   "item.upsidedown.poison_dart": "Poison Dart",
   "item.upsidedown.aluminum_ingot": "Aluminum Ingot",
 
+  "block.upsidedown.aluminum_block": "Aluminum Block",
 
-  "block.upsidedown.aluminum_block": "Aluminum Block"
+  "effect.upsidedown.toxicity": "Toxicity",
+
+  "death.attack.toxicity": "%1$s died of toxins in their blood",
+  "death.attack.toxicity.player": "%1$s was killed by %2$s's toxins"
 }

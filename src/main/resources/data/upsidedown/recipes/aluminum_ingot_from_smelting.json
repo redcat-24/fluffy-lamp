@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 250,
+  "experience": 0.2,
+  "group": "aluminum",
+  "ingredient": {
+    "item": "upsidedown:aluminum_ore"
+  },
+  "result": "upsidedown:aluminum_ingot"
+}

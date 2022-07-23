@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "upsidedown:aluminum_ingot"
+    },
+    "X": {
+      "item": "upsidedown:aluminum_nugget"
+    },
+    "%": {
+      "item": "minecraft:feather"
+    }
+  },
+  "pattern": [
+    "X",
+    "#",
+    "%"
+  ],
+  "result": {
+    "count": 8,
+    "item": "upsidedown:dart"
+  }
+}
